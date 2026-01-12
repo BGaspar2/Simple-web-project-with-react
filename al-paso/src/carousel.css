@@ -2,10 +2,9 @@
 
 .hero-carousel {
   margin: 0 auto; /* Center the carousel */
-
   padding: 0; /* Remove padding */
   width: 50%; /* Adjust width dynamically */
-  height: 50%; /* Adjust height dynamically */
+  height: 100%; /* Adjust height dynamically */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background-color: transparent; /* Removed white background */
@@ -22,11 +21,14 @@
 .hero-carousel img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  margin-bottom: -9px;
+  margin-top: -10px;
+  border-radius: 10px;
 }
 
 .hero-carousel .slick-dots {
-  margin-bottom: 5px; /* Adjust bottom spacing for dots */
+  margin-bottom: -4px; /* Adjust bottom spacing for dots */
+
 }
 
 /* Custom styles for the carousel */

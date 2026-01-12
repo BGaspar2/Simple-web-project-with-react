@@ -5,7 +5,7 @@
   --verde-complementario: #1F7A5C;
   --naranja-accion: #F25C2E;
   --naranja-hover: #D94F26;
-  --blanco: #FFFFFF;
+  --blanco: #f7f7f7;
   --gris-suave: #E9E9E9;
   --gris-oscuro: #D2D2D2;
   --texto-oscuro: #333333;
@@ -97,7 +97,7 @@ body {
   max-height: 500px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(15, 76, 58, 0.2);
+  box-shadow: 0 8px 20px rgba(15, 221, 159, 0.2);
 }
 
 /* ===== CARD STYLES ===== */
