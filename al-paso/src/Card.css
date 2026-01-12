@@ -20,7 +20,8 @@
   height: auto; /* Ensures the image height adjusts dynamically */
   max-height: 250px; /* Sets a maximum height to prevent overly large images */
   width: 100%; /* Ensures the image fits within the card */
-  object-fit: contain; /* Maintains aspect ratio and covers the area */}
+  object-fit: contain; /* Prevents cropping and ensures the entire image is displayed */
+}
 
 .compact-card .card-body {
   padding: 10px;
