@@ -1,0 +1,53 @@
+/* Styling for the carousel in the Home page */
+
+.hero-carousel {
+  margin: 0 auto; /* Center the carousel */
+
+  padding: 0; /* Remove padding */
+  width: 50%; /* Adjust width dynamically */
+  height: 50%; /* Adjust height dynamically */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: transparent; /* Removed white background */
+}
+
+.hero-carousel .slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Remove extra padding */
+  height: auto; /* Adjust height dynamically */
+}
+
+.hero-carousel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hero-carousel .slick-dots {
+  margin-bottom: 5px; /* Adjust bottom spacing for dots */
+}
+
+/* Custom styles for the carousel */
+.hero-carousel .slick-slide img {
+  width: 100%;
+  height: auto; /* Adjust height dynamically */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero-carousel .slick-dots li button:before {
+  color: #ff5722; /* Custom dot color */
+}
+
+.hero-carousel .slick-prev,
+.hero-carousel .slick-next {
+  z-index: 1;
+  color: #ff5722; /* Custom arrow color */
+}
+
+.hero-carousel .slick-prev:hover,
+.hero-carousel .slick-next:hover {
+  color: #e64a19; /* Hover effect for arrows */
+}

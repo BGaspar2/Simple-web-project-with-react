@@ -1,0 +1,40 @@
+/* Styling for the Card component */
+
+.compact-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Adjusted to ensure a balanced component size */
+  margin: auto; /* Centers the card within its column */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  margin-bottom: 20px; /* Added spacing below each card */
+}
+
+.compact-card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Adds a deeper shadow */
+}
+
+.compact-card img {
+  height: auto; /* Ensures the image height adjusts dynamically */
+  max-height: 250px; /* Sets a maximum height to prevent overly large images */
+  width: 100%; /* Ensures the image fits within the card */
+  object-fit: contain; /* Maintains aspect ratio and covers the area */}
+
+.compact-card .card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.compact-card .btn-primary {
+  background-color: #F25C2E; /* Primary color of the page */
+  border-color: #F25C2E; /* Match the background color */
+  color: #fff; /* White text for contrast */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.compact-card .btn-primary:hover {
+  background-color: #0F4C3A; /* Secondary color of the page */
+  border-color: #0F4C3A; /* Match the hover background color */
+}
